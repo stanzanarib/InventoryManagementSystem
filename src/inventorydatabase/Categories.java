@@ -56,7 +56,7 @@ public class Categories extends javax.swing.JFrame {
             ex.printStackTrace();
         }
 
-        System.out.println(categoryList);
+       
         return categoryList;
     }
 

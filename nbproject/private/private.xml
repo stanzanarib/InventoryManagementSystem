@@ -3,11 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Acer/Documents/NetBeansProjects/InventoryDatabase/src/inventorydatabase/DatabaseConnection.java</file>
             <file>file:/C:/Users/Acer/Documents/NetBeansProjects/InventoryDatabase/src/inventorydatabase/Navigation.java</file>
             <file>file:/C:/Users/Acer/Documents/NetBeansProjects/InventoryDatabase/src/inventorydatabase/LoginPage.java</file>
             <file>file:/C:/Users/Acer/Documents/NetBeansProjects/InventoryDatabase/src/inventorydatabase/Categories.java</file>
+            <file>file:/C:/Users/Acer/Documents/NetBeansProjects/InventoryDatabase/src/inventorydatabase/Supplier.java</file>
+            <file>file:/C:/Users/Acer/Documents/NetBeansProjects/InventoryDatabase/src/inventorydatabase/Category.java</file>
             <file>file:/C:/Users/Acer/Documents/NetBeansProjects/InventoryDatabase/src/inventorydatabase/MainPage.java</file>
+            <file>file:/C:/Users/Acer/Documents/NetBeansProjects/InventoryDatabase/src/inventorydatabase/Suppliers.java</file>
             <file>file:/C:/Users/Acer/Documents/NetBeansProjects/InventoryDatabase/src/inventorydatabase/InventoryDatabase.java</file>
         </group>
     </open-files>
