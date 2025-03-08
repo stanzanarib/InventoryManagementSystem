@@ -184,52 +184,55 @@ public class MainPage extends javax.swing.JPanel {
     }// </editor-fold>//GEN-END:initComponents
 
     private void Products_buttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Products_buttonActionPerformed
-        
+        showProduct();
     }//GEN-LAST:event_Products_buttonActionPerformed
 
     private void Logout_buttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Logout_buttonActionPerformed
         System.out.println("Logging out....");
         logoutLogic();
-        
+
     }//GEN-LAST:event_Logout_buttonActionPerformed
 
     private void Category_buttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Category_buttonActionPerformed
-      showCategoryPage();
+        showCategoryPage();
     }//GEN-LAST:event_Category_buttonActionPerformed
 
     private void Supplier_buttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Supplier_buttonActionPerformed
         // TODO add your handling code here:
-        
+
         showSuppliers();
     }//GEN-LAST:event_Supplier_buttonActionPerformed
 
-    
-    public void showCategoryPage(){
-  
+    public void showCategoryPage() {
+
         Categories categories = new Categories();
         categories.setVisible(true);
     }
-    
-    public void showSuppliers(){
+
+    public void showSuppliers() {
         Suppliers supplier = new Suppliers();
         supplier.setVisible(true);
     }
-    
-    
-    public void logoutLogic(){
-        
+
+    public void showProduct() {
+        Products products = new Products();
+        products.setVisible(true);
+    }
+
+    public void logoutLogic() {
+
         JFrame loginPage = new JFrame("Inventory Management System");
         JFrame mainPage = (JFrame) SwingUtilities.getWindowAncestor(this);
-        
+
         mainPage.setVisible(false);
         mainPage.dispose();
-        
+
         loginPage.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         loginPage.setSize(1900, 800);
         loginPage.setLocationRelativeTo(null); // Center the window
         loginPage.getContentPane().add(new LoginPage());
         loginPage.setVisible(true);
-        
+
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
